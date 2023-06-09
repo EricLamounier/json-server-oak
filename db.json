@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "13f9f9cb-07a7-433f-bef2-0b95225951d4",
+      "name": "Coca Cola",
+      "description": "Cola de 1 Litro",
+      "disponibility": 1,
+      "price": 12.5
+    },
+    {
+      "id": "96c9bd62-e295-4464-904a-a25ba8cdcb05",
+      "name": "Passatempo",
+      "description": "1 pacote 10g",
+      "disponibility": 0,
+      "price": 3.1
+    },
+    {
+      "id": "82aedc88-975a-4d03-83a6-076ce69557d4",
+      "name": "Doritos",
+      "description": "GG",
+      "disponibility": 1,
+      "price": 15
+    }
+  ]
 }
